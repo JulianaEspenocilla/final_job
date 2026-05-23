@@ -13,4 +13,4 @@ Route::get('/jobs',
 [JobController::class, 'index']);
 
 Route::get('/jobs/{id}', 
-[JobController::class, 'show']);
+[JobController::class, 'show']);//
